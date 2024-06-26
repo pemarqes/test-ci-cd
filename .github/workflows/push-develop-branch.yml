@@ -49,6 +49,7 @@ jobs:
                   cd changed-sources
                   cd destructiveChanges
                   ls -la
+                  cat destructiveChanges.xml
                  
 
             # Authenticate to org
