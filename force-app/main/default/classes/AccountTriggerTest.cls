@@ -9,7 +9,7 @@ private class AccountTriggerTest {
 
         // Inserindo a conta
         insert acc;
-        System.debug('Entrou aqui 321');
+        System.debug('Entrou aqui 32111');
 
         // Recuperando a conta inserida do banco de dados
         Account insertedAccount = [SELECT Id, Name, Industry FROM Account WHERE Id = :acc.Id];
