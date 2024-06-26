@@ -47,6 +47,7 @@ jobs:
                   mkdir changed-sources
                   sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/ 
                   cd changed-sources
+                  cd destructiveChanges
                   ls -la
                  
 
@@ -55,7 +56,7 @@ jobs:
               run: sfdx auth:sfdxurl:store -f ./SF_DEVELOP_URL.txt -s -a integration
 
             - name: 'Deploy the entire branch to Integration org'
-              run: sfdx force:source:deploy -p force-app --testlevel RunLocalTests --json
+              run: sfdx force:source:deploy -p changed-sources/force-app --testlevel RunLocalTests --json --verbose
 
             - name: 'Deploy destructive changes (if any) to Integration org'
               run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings 
