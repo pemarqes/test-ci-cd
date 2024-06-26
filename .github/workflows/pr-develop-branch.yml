@@ -20,19 +20,19 @@ jobs:
         with:
           node-version: "20"
 
-      - name: "Conferir código fonte"
+      - name: "Obtem acesso ao código"
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: "Ler corpo do PR"
+      - name: "Ler corpo do PR "
         env:
-          # Salvar corpo do pull request em um variavel ambiente diposnivel apenas nesse contexto
+          # Salvar corpo do pull request em um variavel ambiente disponivel apenas nesse contexto
           PR_BODY: ${{github.event.pull_request.body}}
         # Realiza o parse do texto do corpo do PR para obter as classes de teste a serem rodadas
         run: |
           echo $PR_BODY > ./pr_body.txt
-          node ./parsePR.js              
+          node ./process/parsePR.js              
           TESTS=$(cat testsToRun.txt)       
           echo "APEX_TESTS=$TESTS" >> $GITHUB_ENV
 
