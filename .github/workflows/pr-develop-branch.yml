@@ -72,8 +72,8 @@ jobs:
         run: |
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
 
-      - name: "Deploy destructive changes (if any) to Integration org"
-        run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
+      # - name: "Deploy destructive changes (if any) to Integration org"
+      #   run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
 
       - name: "debug"
         run: cd changed-sources
