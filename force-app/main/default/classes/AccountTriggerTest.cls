@@ -8,7 +8,7 @@ private class AccountTriggerTest {
 
     // Inserindo a conta
     insert acc;
-    System.debug('Entrou aqui 32111aaa');
+    System.debug('Entrou aqui 32111aaabb');
 
     // Recuperando a conta inserida do banco de dados
     Account insertedAccount = [

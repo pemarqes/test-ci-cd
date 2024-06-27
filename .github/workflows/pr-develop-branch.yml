@@ -62,11 +62,6 @@ jobs:
         run: |
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
-          cd changed-sources
-          ls -la
-          cd package
-          ls -la 
-          cat package.xml
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
@@ -76,3 +71,13 @@ jobs:
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
+
+      - name: "Deploy destructive changes (if any) to Integration org"
+        run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
+
+      - name: "debug"
+        run: cd changed-sources
+          echo Pacote
+          cat package/package.xml
+          echo Pacote Rollback
+          cat destructiveChanges/destructiveChanges.xml
