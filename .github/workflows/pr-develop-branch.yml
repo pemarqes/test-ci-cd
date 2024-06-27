@@ -27,9 +27,8 @@ jobs:
 
       - name: "Ler corpo do PR e extrair classes de teste"
         env:
-          # Salvar corpo do pull request em um variavel ambiente diposnivel apenas nesse contexto
           PR_BODY: ${{github.event.pull_request.body}}
-        # Realiza o parse do texto do corpo do PR para obter as classes de teste a serem rodadas
+
         run: |
           echo $PR_BODY > ./.process/pr_body.txt
           node ./.process/parsePR.js              
@@ -41,15 +40,9 @@ jobs:
           npm install @salesforce/cli --global
           sf --version
 
-      # Then we install the SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
-      # This is an awesome plugin that allows us to extract a package.xml with the metadata
-      # that has changed between commits. I highly recommend going over the github readme
-      # for more information on how this works.
-
       - name: "Installing sfdx git delta"
         run: |
-          echo y | sfdx plugins:install sfdx-git-delta
-          sfdx plugins
+          echo y | sf plugins:install sfdx-git-delta
 
       # Install java as it is required for the next step
       - name: "Installing java"
