@@ -1,4 +1,4 @@
-name: Validar PR na brach de Desenvolvimento
+name: Validar PR na Organização Conectada a Branch de Desenvolvimento
 
 # Parametros de quando irá executor a ação
 on:
@@ -12,7 +12,7 @@ on:
 
 # Trabalhos a serem executados
 jobs:
-  validar-deploy-na-organizacao-de-develop:
+  validar-pacote-na-organizacao-de-develop:
     runs-on: ubuntu-latest
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
@@ -49,7 +49,7 @@ jobs:
           sudo apt-get update
           sudo apt install default-jdk
 
-        # Comando para obter URL de autenticação -> sfdx force:org:display -u my-scratch-org --verbose
+      # Comando para obter URL de autenticação -> sfdx force:org:display -u my-scratch-org --verbose
       - name: "Criar arquivo com URL de autenticação"
         shell: bash
         run: |
@@ -62,11 +62,6 @@ jobs:
         run: |
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
-          cd changed-sources
-          ls -la
-          cd destructiveChanges
-          ls -la
-          cat destructiveChanges.xml
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
@@ -76,6 +71,3 @@ jobs:
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
-
-          # - name: "Deploy destructive changes (if any)"
-      #   run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
