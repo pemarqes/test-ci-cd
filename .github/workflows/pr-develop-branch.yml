@@ -76,8 +76,6 @@ jobs:
       #   run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
 
       - name: "debug"
-        run: cd changed-sources
-          echo Pacote
-          cat package/package.xml
-          echo Pacote Rollback
-          cat destructiveChanges/destructiveChanges.xml
+        run: ls -la
+          cd changed-sources
+          ls -la
