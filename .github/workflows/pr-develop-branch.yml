@@ -62,11 +62,6 @@ jobs:
         run: |
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
-          cd changed-sources
-          ls -la
-          cd destructiveChanges
-          ls -la
-          cat destructiveChanges.xml
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
@@ -75,7 +70,7 @@ jobs:
       - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
-          sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
+          sf project deploy validate --source-dir "changed-sources/force-app"  --post-destructive-changes "changed-sources/destructiveChanges/destructiveChanges.xml" --test-level RunLocalTests   --json
 
-          # - name: "Deploy destructive changes (if any)"
-      #   run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
+      # - name: "Deploy destructive changes (if any)"
+      #   run: sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --ignore-warnings --json
