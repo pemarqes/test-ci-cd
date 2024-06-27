@@ -74,4 +74,4 @@ jobs:
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
 
       - name: "Deploy destructive changes (if any)"
-        run: sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --ignorewarnings --json
+        run: sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --ignore-warnings --json
