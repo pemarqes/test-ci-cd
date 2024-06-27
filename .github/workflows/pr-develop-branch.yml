@@ -65,8 +65,12 @@ jobs:
           echo Roolback
           cd changed-sources
           cd destructiveChanges
-          ls -la
           cat destructiveChanges.xml
+          cd ..
+          cd package
+          echo Pacote
+          cat package.xml
+
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
@@ -77,5 +81,5 @@ jobs:
         run: |
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
 
-      # - name: "Deploy destructive changes (if any) to Integration org"
-      #   run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
+      - name: "Deploy destructive changes (if any) to Integration org"
+        run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges/destructiveChanges.xml" --checkonly --ignorewarnings
