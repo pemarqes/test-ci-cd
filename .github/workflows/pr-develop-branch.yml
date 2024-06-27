@@ -71,7 +71,7 @@ jobs:
       - name: "Realizar implantação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
-          sf force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunLocalTests  --json
+          sf project deploy validate --source-dir "changed-sources/force-app" --testlevel RunLocalTests  --json
 
       - name: "Deploy destructive changes (if any)"
-        run: sf project deploy start -p "changed-sources/destructiveChanges" --checkonly --ignorewarnings
+        run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
