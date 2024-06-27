@@ -63,15 +63,16 @@ jobs:
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
 
-      - name: "Realizar implantação com testes especificos"
+      - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
         run: sf force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunSpecifiedTests --runtests ${{env.APEX_TESTS}} --json
 
       # If the env variable equals all, we run all tests
-      - name: "Realizar implantação com todos as classes de teste"
+      - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
 
       - name: "Deploy destructive changes (if any)"
         run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
+          sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --test-level RunLocalTests --ignorewarnings --json
