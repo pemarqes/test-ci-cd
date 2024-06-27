@@ -67,11 +67,10 @@ jobs:
         if: ${{ env.APEX_TESTS != 'all' }}
         run: sf force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunSpecifiedTests --runtests ${{env.APEX_TESTS}} --json
 
-      # If the env variable equals all, we run all tests
       - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
-          sf project deploy validate --source-dir "changed-sources/force-app" --test-level RunLocalTests  --json
+          sf project deploy validate --source-dir "changed-sources/force-app"  --post-destructive-changes "changed-sources/destructiveChanges/destructiveChanges.xml" --test-level RunLocalTests   --json
 
-      - name: "Deploy destructive changes (if any)"
-        run: sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --ignore-warnings --json
+      # - name: "Deploy destructive changes (if any)"
+      #   run: sf project deploy validate --post-destructive-changes "changed-sources/destructiveChanges" --ignore-warnings --json
