@@ -22,7 +22,7 @@ jobs:
           COMMIT_DATE="${{ github.event.head_commit.timestamp }}"
           echo "Commit Message: $COMMIT_MESSAGE"
           echo "Commit Author: $COMMIT_AUTHOR"
-          echo "Commit Date: $COMMIT_DATE
+          echo "Commit Date: $COMMIT_DATE"
       # Install Salesforce CLI
       - name: "Install Salesforce CLI"
         run: |
