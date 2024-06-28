@@ -37,6 +37,10 @@ jobs:
 
       - name: "Intalação Salesforce CLI"
         run: |
+          npm install nodemailer
+
+      - name: "Intalação Salesforce CLI"
+        run: |
           npm install @salesforce/cli --global
           sf --version
 
@@ -71,7 +75,7 @@ jobs:
           ls -la &&
           cd "changed-sources" &&
           ls -la &&
-          sf scanner:run --format json --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
+          sf scanner:run --format json --target '.' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
           cd .. 
           node .process/generate_comment.js > comment.md
 
@@ -96,4 +100,7 @@ jobs:
       - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
-          sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json
+          sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json > deploy.json
+
+      - name: "Enviar email"
+        run: node .process/sendEmail.js
