@@ -9,62 +9,65 @@ on:
       - "force-app/**"
 
 # Jobs to be executed
+# Trabalhos a serem executados
 jobs:
-  deploy-branch-to-int-and-staging-orgs:
+  validar-pacote-na-organizacao-de-develop:
     runs-on: ubuntu-latest
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20"
 
-      - name: Extract commit information
-        run: |
-          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-          COMMIT_AUTHOR="${{ github.event.head_commit.author.name }}"
-          COMMIT_DATE="${{ github.event.head_commit.timestamp }}"
-          echo "Commit Message: $COMMIT_MESSAGE"
-          echo "Commit Author: $COMMIT_AUTHOR"
-          echo "Commit Date: $COMMIT_DATE"
-      # Install Salesforce CLI
-      - name: "Install Salesforce CLI"
-        run: |
-          wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
-          mkdir ~/sfdx
-          tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
-          echo "$HOME/sfdx/bin" >> $GITHUB_PATH
-          ~/sfdx/bin/sfdx version
-
-      # install SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
-      - name: "Installing sfdx git delta"
-        run: |
-          echo y | sfdx plugins:install sfdx-git-delta
-          sfdx plugins
-
-      # Checkout the source code
-      - name: "Checkout source code"
+      - name: "Conferir código fonte"
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # Store secret for both otgs
-      - name: "Populate auth file with SFDX_URL secret of the integration and staging orgs"
+      - name: "Ler corpo do PR e extrair classes de teste"
+        env:
+          PR_BODY: ${{ github.event.head_commit.message }}
+
+        run: |
+          echo $PR_BODY > ./.process/pr_body.txt
+          node ./.process/parsePR.js              
+          TESTS=$(cat ./.process/testsToRun.txt)       
+          echo "APEX_TESTS=$TESTS" >> $GITHUB_ENV
+
+      - name: "Intalação Salesforce CLI"
+        run: |
+          npm install @salesforce/cli --global
+          sf --version
+
+      - name: "Instalação do Git Delta"
+        run: |
+          echo y | sf plugins:install sfdx-git-delta
+
+      - name: "Instalação do Java"
+        run: |
+          sudo apt-get update
+          sudo apt install default-jdk
+
+      # Comando para obter URL de autenticação -> sfdx force:org:display -u my-scratch-org --verbose
+      - name: "Criar arquivo com URL de autenticação"
         shell: bash
         run: |
           echo ${{ secrets.SF_DEVELOP_URL}} > ./SF_DEVELOP_URL.txt
 
-      - name: "Create delta packages for new, modified or deleted metadata"
+      - name: "Autenticar na Organização"
+        run: sf org login sfdx-url -f ./SF_DEVELOP_URL.txt --set-default --alias develop
+
+      - name: "Criar um pacote de alterações"
         run: |
           mkdir changed-sources
-          sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/ 
-          cd changed-sources
-          cd destructiveChanges
-          ls -la
-          cat destructiveChanges.xml
+          sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
 
-      # Authenticate to org
-      - name: "Authenticate to Integration Org"
-        run: sfdx auth:sfdxurl:store -f ./SF_DEVELOP_URL.txt -s -a integration
+      - name: "Realizar validação com testes especificos"
+        if: ${{ env.APEX_TESTS != 'all' }}
+        run: 
+          sf project deploy --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
 
-      - name: "Deploy the entire branch to Integration org"
-        run: sfdx force:source:deploy -p changed-sources/force-app --testlevel RunLocalTests --json --verbose
-
-      - name: "Deploy destructive changes (if any) to Integration org"
-        run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
+      - name: "Realizar validação com todos as classes de teste"
+        if: ${{ env.APEX_TESTS == 'all' }}
+        run: |
+          sf project deploy --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json
