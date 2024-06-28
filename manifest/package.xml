@@ -26,6 +26,7 @@
 	</types>
 	<types>
 		<members>Account.Test__c</members>
+        <members>Account.Test2__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
