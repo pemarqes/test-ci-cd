@@ -71,7 +71,7 @@ jobs:
           ls -la &&
           cd "changed-sources" &&
           ls -la &&
-          sf scanner:run --format json --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
+          sf scanner:run --format json --target '.' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
           cd .. 
           node .process/generate_comment.js > comment.md
 
