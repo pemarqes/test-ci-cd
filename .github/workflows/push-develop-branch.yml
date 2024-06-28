@@ -11,7 +11,7 @@ on:
 # Jobs to be executed
 # Trabalhos a serem executados
 jobs:
-  validar-pacote-na-organizacao-de-develop:
+  implantar-pacote-na-organizacao-de-develop:
     runs-on: ubuntu-latest
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
@@ -62,12 +62,12 @@ jobs:
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
 
-      - name: "Realizar validação com testes especificos"
+      - name: "Realizar implantação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
         run: 
           sf project deploy start --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
 
-      - name: "Realizar validação com todos as classes de teste"
+      - name: "Realizar implantação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy start --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json
