@@ -68,12 +68,14 @@ jobs:
 
       - name: "Scannear Código"
         run: |
-          ls -la &&
-          cd "changed-sources" &&
-          ls -la &&
-          sf scanner:run --format json --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
-          cd .. 
-          node .process/generate_comment.js > comment.md
+              ls -la &&
+              cd "changed-sources" &&
+              ls -la &&
+              sf scanner:run --format json --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
+              cd .. 
+              node .process/generate_comment.js > comment.md
+              
+             
 
       - name: Comment on pull request
         uses: actions/github-script@v6
@@ -81,17 +83,19 @@ jobs:
           script: |
             const fs = require('fs');
             const commentBody = fs.readFileSync('comment.md', 'utf8');
-
+          
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: commentBody
             })
+    
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
-        run: sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
+        run: 
+          sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
 
       - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
