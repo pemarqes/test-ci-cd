@@ -71,13 +71,29 @@ jobs:
               ls -la &&
               cd "changed-sources" &&
               ls -la &&
-              sf scanner:run --format sarif --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.sarif'
+              sf scanner:run --format json --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
+              cd .. 
+              node .process/generate_comment.js > comment.md
              
 
-      - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v3
+      - name: Comment on pull request
+        uses: actions/github-script@0.8.0
         with:
-          sarif_file: changed-sources/apexScanResults.sarif
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const comment = fs.readFileSync('comment.md', 'utf8');
+            const { context, github } = require('@actions/github');
+            
+            const payload = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            };
+            
+            github.rest.issues.createComment(payload);
+    
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
