@@ -72,8 +72,11 @@ jobs:
 
       - name: "Scannear Código"
         run: |
+          ls -la &&
           cd "changed-sources" &&
-          sf scanner:run --format json --target '.' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' && 
+          ls -la &&
+          sf scanner:run --format json --target '.' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
+          cd .. 
           node .process/generate_comment.js > comment.md
 
       - name: Comment on pull request
