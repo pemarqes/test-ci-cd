@@ -67,9 +67,10 @@ jobs:
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
 
       - name: "Scannear Código"
-        run: ls -la
-             cd "changed-sources"
-             ls -la
+        run: |
+              ls -la &&
+              cd "changed-sources" &&
+              ls -la
              
 
       - name: Upload SARIF file
