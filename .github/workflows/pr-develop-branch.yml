@@ -62,14 +62,6 @@ jobs:
         run: |
           mkdir changed-sources
           sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
-          echo Roolback
-          cd changed-sources
-          cd destructiveChanges
-          cat destructiveChanges.xml
-          cd ..
-          cd package
-          echo Pacote
-          cat package.xml
 
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
