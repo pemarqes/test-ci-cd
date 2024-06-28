@@ -68,6 +68,8 @@ jobs:
 
       - name: "Scannear Código"
         run: cd changed-sources
+             ls -la
+             cd force-app
              sf scanner run --target "." -f sarif -o apexScanResults.sarif
              cd ..
 
