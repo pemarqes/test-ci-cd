@@ -64,8 +64,7 @@ jobs:
 
       - name: "Realizar implantação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
-        run: 
-          sf project deploy start --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
+        run: sf project deploy start --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
 
       - name: "Realizar implantação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
