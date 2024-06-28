@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
+
+      - name: Print event JSON
+        run: echo "${{ toJson(github.event) }}"
       # Install Salesforce CLI
       - name: "Install Salesforce CLI"
         run: |
