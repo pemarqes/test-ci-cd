@@ -70,7 +70,8 @@ jobs:
         run: |
               ls -la &&
               cd "changed-sources" &&
-              ls -la
+              ls -la &&
+              sf scanner run --target "." -f sarif -o apexScanResults.sarif
              
 
       - name: Upload SARIF file
