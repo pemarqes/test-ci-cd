@@ -68,7 +68,7 @@ jobs:
 
       - name: "Scannear Código"
         run: cd changed-sources
-             sfdx scanner run --target "$(pwd)" -p '**/*.trigger' -p '**/*.cls' -f sarif -o apexScanResults.sarif
+             sf scanner run --target "." -f sarif -o apexScanResults.sarif
              cd ..
 
       - name: Upload SARIF file
