@@ -8,7 +8,7 @@ private class AccountTriggerTest {
 
     // Inserindo a conta
     insert acc;
-    System.debug('Entrou aqui 32111');
+    System.debug('Entrou aqui 32111aaabaaaaab');
 
     // Recuperando a conta inserida do banco de dados
     Account insertedAccount = [
@@ -16,6 +16,8 @@ private class AccountTriggerTest {
       FROM Account
       WHERE Id = :acc.Id
     ];
+
+    // new testClass();
 
     // Verificando se a trigger atualizou corretamente os campos esperados
     // System.assertEquals('Test Account', insertedAccount.Name);
