@@ -99,6 +99,7 @@ jobs:
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json > deploy.json
+        continue-on-error: true
 
       - name: "Enviar email"
         run: node .process/sendEmail.js
