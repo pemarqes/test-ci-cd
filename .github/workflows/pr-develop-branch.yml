@@ -101,5 +101,9 @@ jobs:
           sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json > deploy.json
         continue-on-error: true
 
+      - name: Mostrar aviso se houver falha
+        if: failure()
+        run: echo " A ação anterior falhou, mas o fluxo continua."
+
       - name: "Enviar email"
         run: node .process/sendEmail.js
