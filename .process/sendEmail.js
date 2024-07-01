@@ -1,20 +1,19 @@
 const fs = require("fs");
 const nodemailer = require("nodemailer");
 
-// Função para ler o arquivo JSON
-function lerArquivoJSON(caminhoArquivo) {
+// Função para ler o arquivo de deploy
+function lerArquivoDeploy(caminhoArquivo) {
   try {
-    const jsonString = fs.readFileSync(caminhoArquivo, "utf8");
-    return JSON.parse(jsonString);
+    return fs.readFileSync(caminhoArquivo, "utf8");
   } catch (err) {
-    console.error("Erro ao ler o arquivo JSON:", err);
+    console.error("Erro ao ler o arquivo de deploy:", err);
     return null;
   }
 }
 
 // Função para enviar email com o Nodemailer
-async function enviarEmail(dadosEmail) {
-  // Configuração do transporte de email (substitua com seus dados)
+async function enviarEmail(dadosEmail, caminhoArquivo) {
+  // Configuração do transporte de email
   const transporter = nodemailer.createTransport({
     host: "smtp.ethereal.email",
     port: 587,
@@ -26,19 +25,25 @@ async function enviarEmail(dadosEmail) {
 
   // Corpo do email
   let emailBody = `
-        <h2>Validação Deploy</h2>
-        <p>Status: ${dadosEmail.result.status}</p>
-        <p>Data de Conclusão: ${dadosEmail.result.completedDate}</p>
-        <p>Componentes Deployed: ${dadosEmail.result.numberComponentsDeployed}</p>
-        <p>Id Deployed: ${dadosEmail.result.id}</p>
-    `;
+    <h2>Validação Deploy</h2>
+    <p>Status: ${dadosEmail.result.status}</p>
+    <p>Data de Conclusão: ${dadosEmail.result.completedDate}</p>
+    <p>Componentes Deployed: ${dadosEmail.result.numberComponentsDeployed}</p>
+    <p>Id Deployed: ${dadosEmail.result.id}</p>
+  `;
 
   // Opções do email
   let mailOptions = {
     from: "pedro.marques@beecloud.com",
     to: "pedro.marques@beecloud.com",
     subject: "Validação Deploy",
-    html: emailBody
+    html: emailBody,
+    attachments: [
+      {
+        filename: "deploy.js",
+        content: lerArquivoDeploy(caminhoArquivo)
+      }
+    ]
   };
 
   // Enviar email
@@ -50,13 +55,18 @@ async function enviarEmail(dadosEmail) {
   }
 }
 
-// Caminho para o arquivo JSON
+// Caminho para o arquivo JSON (dados do deploy)
 const caminhoArquivoJSON = "deploy.json";
 
-// Ler o arquivo JSON
+// Ler o arquivo JSON com os dados do deploy
 const dados = lerArquivoJSON(caminhoArquivoJSON);
 
-// Verificar se foi possível ler o arquivo e enviar o email
-if (dados) {
-  enviarEmail(dados);
+// Caminho para o arquivo de deploy.js
+const caminhoArquivoDeploy = "deploy.js";
+
+// Verificar se foi possível ler o arquivo de deploy.js e enviar o email
+if (dados && lerArquivoDeploy(caminhoArquivoDeploy)) {
+  enviarEmail(dados, caminhoArquivoDeploy);
+} else {
+  console.error("Não foi possível enviar o email com o anexo do arquivo de deploy.js.");
 }
