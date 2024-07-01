@@ -19,9 +19,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "20"
-        env: 
-          EMAIL_HOST: smtp.ethereal.email
-
+        
       - name: "Conferir código fonte"
         uses: actions/checkout@v3
         with:
@@ -106,4 +104,6 @@ jobs:
         continue-on-error: true
 
       - name: "Enviar email"
+        env: 
+          EMAIL_HOST: smtp.ethereal.email
         run: node .process/sendEmail.js
