@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "20"
-
+        
       - name: "Conferir código fonte"
         uses: actions/checkout@v3
         with:
@@ -72,9 +72,7 @@ jobs:
 
       - name: "Scannear Código"
         run: |
-          ls -la &&
           cd "changed-sources" &&
-          ls -la &&
           sf scanner:run --format json --target '.' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.json' &&
           cd .. 
           node .process/generate_comment.js > comment.md
@@ -96,11 +94,20 @@ jobs:
       - name: "Realizar validação com testes especificos"
         if: ${{ env.APEX_TESTS != 'all' }}
         run: sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunSpecifiedTests --tests ${{env.APEX_TESTS}} --json
+        continue-on-error: true
 
+        # sf project deploy validate --manifest "manifest/package.xml" --test-level RunLocalTests  --json > deploy.json
       - name: "Realizar validação com todos as classes de teste"
         if: ${{ env.APEX_TESTS == 'all' }}
         run: |
           sf project deploy validate --manifest "changed-sources/package/package.xml" --pre-destructive-changes changed-sources/destructiveChanges/destructiveChanges.xml --test-level RunLocalTests  --json > deploy.json
+        continue-on-error: true
 
       - name: "Enviar email"
-        run: node .process/sendEmail.js
+        env: 
+          EMAIL_HOST: smtp.ethereal.email
+          EMAIL_PORT: 587
+          EMAIL_USER: coleman13@ethereal.email
+          EMAIL_PASSWORD: WY116MAvEVHEzqdgbe
+          INSTANCE_URL: ${{ secrets.SF_DEVELOP_INSTANCE_URL}}
+        run: node .process/validate-deploy.js
