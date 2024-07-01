@@ -32,6 +32,7 @@ async function enviarEmail(dadosEmail) {
       <p>Data de Conclusão: ${dadosEmail.result.completedDate}</p>
       <p>Componentes Deployed: ${dadosEmail.result.numberComponentsDeployed}</p>
       <p>Id Deployed: ${dadosEmail.result.id}</p>
+      <p>Link para detalhes: <a href="${process.env.INSTANCE_URL}/lightning/setup/DeployStatus/page?address=/changemgmt/monitorDeploymentsDetails.apexp?asyncId=${dadosEmail.result.id}&retURL=%2Fchangemgmt%2FmonitorDeployment.apexp"></p>
     `;
   } else {
     emailTitle = "Erro na Validação Deploy";
@@ -39,6 +40,8 @@ async function enviarEmail(dadosEmail) {
     <p>Status: Falha</p>
     <p>Mensagem: ${dadosEmail.message}</p>
     <p>Id Deployed: ${dadosEmail.data.deployId}</p>
+      <p>Link para detalhes: <a href="${process.env.INSTANCE_URL}/lightning/setup/DeployStatus/page?address=/changemgmt/monitorDeploymentsDetails.apexp?asyncId=${dadosEmail.data.deployId}&retURL=%2Fchangemgmt%2FmonitorDeployment.apexp"></p>
+
     `;
   }
 

@@ -106,4 +106,5 @@ jobs:
       - name: "Enviar email"
         env: 
           EMAIL_HOST: smtp.ethereal.email
+          INSTANCE_URL: ${{ secrets.SF_DEVELOP_INSTANCE_URL}}
         run: node .process/sendEmail.js
