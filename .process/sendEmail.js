@@ -17,10 +17,10 @@ async function enviarEmail(dadosEmail) {
   // Configuração do transporte de email (substitua com seus dados)
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
-    port: 587,
+    port: process.env.EMAIL_PORT,
     auth: {
-      user: "coleman13@ethereal.email",
-      pass: "WY116MAvEVHEzqdgbe"
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD
     }
   });
   let emailBody;
