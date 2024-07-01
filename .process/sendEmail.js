@@ -16,7 +16,7 @@ function lerArquivoJSON(caminhoArquivo) {
 async function enviarEmail(dadosEmail) {
   // Configuração do transporte de email (substitua com seus dados)
   const transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
+    host: process.env.EMAIL_HOST,
     port: 587,
     auth: {
       user: "coleman13@ethereal.email",
@@ -64,6 +64,8 @@ async function enviarEmail(dadosEmail) {
     console.error("Erro ao enviar email:", err);
   }
 }
+
+console.log(process.env.EMAIL_HOST)
 
 // Caminho para o arquivo JSON
 const caminhoArquivoJSON = "deploy.json";
