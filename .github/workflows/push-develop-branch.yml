@@ -30,7 +30,7 @@ jobs:
 
         run: |
           echo $PR_BODY > ./.process/pr_body.txt
-          node ./.process/parsePR.js              
+          node ./.process/parse_pr.js              
           TESTS=$(cat ./.process/testsToRun.txt)       
           echo "APEX_TESTS=$TESTS" >> $GITHUB_ENV
 
