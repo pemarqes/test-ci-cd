@@ -110,4 +110,4 @@ jobs:
           EMAIL_USER: coleman13@ethereal.email
           EMAIL_PASSWORD: WY116MAvEVHEzqdgbe
           INSTANCE_URL: ${{ secrets.SF_DEVELOP_INSTANCE_URL}}
-        run: node .process/sendEmail.js
+        run: node .process/validate-deploy.js

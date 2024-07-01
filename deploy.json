@@ -1,0 +1,3728 @@
+{
+  "status": 0,
+  "result": {
+    "checkOnly": true,
+    "completedDate": "2024-07-01T14:31:35.000Z",
+    "createdBy": "005aj000005U8uv",
+    "createdByName": "Pedro Marques",
+    "createdDate": "2024-07-01T14:31:26.000Z",
+    "details": {
+      "componentSuccesses": [
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AccountNumber",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AccountSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Active__c",
+          "id": "00Naj0000037xhZEAQ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AnnualRevenue",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.BillingAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Campo_Teste_DEDE__c",
+          "id": "00Naj000003ADruEAG",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.CleanStatus",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.CustomerPriority__c",
+          "id": "00Naj0000037xhaEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.DandbCompanyId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.DunsNumber",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Fax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Industry",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Jigsaw",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NaicsCode",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NaicsDesc",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Name",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NumberOfEmployees",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NumberofLocations__c",
+          "id": "00Naj0000037xhbEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.OperatingHoursId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Ownership",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.ParentId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Phone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Rating",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLAExpirationDate__c",
+          "id": "00Naj0000037xhdEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLASerialNumber__c",
+          "id": "00Naj0000037xheEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SLA__c",
+          "id": "00Naj0000037xhcEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.ShippingAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Sic",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.SicDesc",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Site",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Test2__c",
+          "id": "00Naj000003G97FEAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.TestRodrigao__c",
+          "id": "00Naj000003Ggb3EAC",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Test__c",
+          "id": "00Naj000003G7x4EAC",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.TickerSymbol",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Tier",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Tradestyle",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Type",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.UpsellOpportunity__c",
+          "id": "00Naj0000037xhfEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Website",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.YearStarted",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.AccountId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.AssetId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.BusinessHoursId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ClosedDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Comments",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ContactEmail",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ContactFax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ContactId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ContactMobile",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ContactPhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.EngineeringReqNumber__c",
+          "id": "00Naj0000037xhgEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.EntitlementId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.IsClosedOnCreate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.IsEscalated",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.IsStopped",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.MilestoneStatus",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.MilestoneStatusIcon",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Origin",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ParentId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.PotentialLiability__c",
+          "id": "00Naj0000037xhhEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Priority",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ProductId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Product__c",
+          "id": "00Naj0000037xhiEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Reason",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SLAViolation__c",
+          "id": "00Naj0000037xhjEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.ServiceContractId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SlaExitDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SlaStartDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SourceId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Status",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.StopStartDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Subject",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SuppliedCompany",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SuppliedEmail",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SuppliedName",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.SuppliedPhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.Type",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.AccountId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.AssistantName",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.AssistantPhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Birthdate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.CleanStatus",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.ContactSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Department",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.DoNotCall",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Email",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Fax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.GenderIdentity",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.HasOptedOutOfEmail",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.HasOptedOutOfFax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.HomePhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.IndividualId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Jigsaw",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Languages__c",
+          "id": "00Naj0000037xhkEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.LastCURequestDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.LastCUUpdateDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.LeadSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Level__c",
+          "id": "00Naj0000037xhlEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.MailingAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.MobilePhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Name",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.OtherAddress",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.OtherPhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Phone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Pronouns",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.ReportsToId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.Title",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Address",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.AnnualRevenue",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.CampaignId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.CleanStatus",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Company",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.CompanyDunsNumber",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.CurrentGenerators__c",
+          "id": "00Naj0000037xhmEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.DandbCompanyId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.DoNotCall",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Email",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Fax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.GenderIdentity",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.HasOptedOutOfEmail",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.HasOptedOutOfFax",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.IndividualId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Industry",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Jigsaw",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.LastTransferDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.LeadSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.MobilePhone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Name",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.NumberOfEmployees",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.NumberofLocations__c",
+          "id": "00Naj0000037xhnEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Phone",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Primary__c",
+          "id": "00Naj0000037xhoEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.ProductInterest__c",
+          "id": "00Naj0000037xhpEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Pronouns",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Rating",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.SICCode__c",
+          "id": "00Naj0000037xhqEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Status",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Title",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.Website",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTest__c.object",
+          "fullName": "ObjetoTest__c.Qualquercoisa__c",
+          "id": "00Naj000003AfRZEA0",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c.CampoTeste2__c",
+          "id": "00Naj000003A92VEAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c.CampoTeste__c",
+          "id": "00Naj0000037zeXEAQ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:33.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c.teste3__c",
+          "id": "00Naj000003ABGbEAO",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c.teste4__c",
+          "id": "00Naj000003A9aAEAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.AccountId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Amount",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.CampaignId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.CloseDate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.ContractId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.CurrentGenerators__c",
+          "id": "00Naj0000037xhrEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.DeliveryInstallationStatus__c",
+          "id": "00Naj0000037xhsEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Description",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.ExpectedRevenue",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.IqScore",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.IsPrivate",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.LeadSource",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.MainCompetitors__c",
+          "id": "00Naj0000037xhtEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Name",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.NextStep",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.OrderNumber__c",
+          "id": "00Naj0000037xhuEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.OwnerId",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Pricebook2Id",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Probability",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.StageName",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.TotalOpportunityQuantity",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.TrackingNumber__c",
+          "id": "00Naj0000037xhvEAA",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomField",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Type",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "classes/AccountTriggerTest.cls",
+          "fullName": "AccountTriggerTest",
+          "id": "01paj000005IVyXAAW",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "classes/Test.cls",
+          "fullName": "Test",
+          "id": "01paj000005OiJZAA0",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexClass",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "classes/testClass.cls",
+          "fullName": "testClass",
+          "id": "01paj000005R3z7AAC",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "ApexTrigger",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "triggers/AccountTrigger.trigger",
+          "fullName": "AccountTrigger",
+          "id": "01qaj000000MRj7AAG",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTest__c.object",
+          "fullName": "ObjetoTest__c",
+          "id": "01Iaj0000014HkrEAE",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c",
+          "id": "01Iaj0000013LnJEAU",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "CustomObject",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Test1__c.object",
+          "fullName": "Test1__c",
+          "id": "01Iaj0000014NiDEAU",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "WebLink",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.Billing",
+          "id": "00baj000001HxeFAAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "WebLink",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.UpsellCrosssellOpportunity",
+          "id": "00baj000001HxeGAAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "WebLink",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.DeliveryStatus",
+          "id": "00baj000001HxeEAAS",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.AllAccounts",
+          "id": "00Baj00000BoecEEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.MyAccounts",
+          "id": "00Baj00000BoecKEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NewLastWeek",
+          "id": "00Baj00000BoebjEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.NewThisWeek",
+          "id": "00Baj00000BoHAyEAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Account.object",
+          "fullName": "Account.PlatinumandGoldSLACustomers",
+          "id": "00Baj00000BoebyEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.AllClosedCases",
+          "id": "00Baj00000BoebTEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.AllOpenCases",
+          "id": "00Baj00000BoHB3EAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.MyCases",
+          "id": "00Baj00000BoecOEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Case.object",
+          "fullName": "Case.MyOpenCases",
+          "id": "00Baj00000BoebZEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.AllContacts",
+          "id": "00Baj00000BoHB4EAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.BirthdaysThisMonth",
+          "id": "00Baj00000BoebdEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.BulkMessageContacts",
+          "id": "00Baj00000BoeZ3EAJ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.MyContacts",
+          "id": "00Baj00000BoecSEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.NewLastWeek",
+          "id": "00Baj00000BoebUEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Contact.object",
+          "fullName": "Contact.NewThisWeek",
+          "id": "00Baj00000BoebbEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.AllOpenLeads",
+          "id": "00Baj00000BoHB6EAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.MyUnreadLeads",
+          "id": "00Baj00000BoebXEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.TodaysLeads",
+          "id": "00Baj00000BoeblEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.ViewCustom1",
+          "id": "00Baj00000BoebxEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Lead.object",
+          "fullName": "Lead.ViewCustom2",
+          "id": "00Baj00000BoebwEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/ObjetoTeste__c.object",
+          "fullName": "ObjetoTeste__c.All",
+          "id": "00Baj00000BojOcEAJ",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.AllOpportunities",
+          "id": "00Baj00000BoHB8EAN",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.ClosingNextMonth",
+          "id": "00Baj00000BoebYEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.ClosingThisMonth",
+          "id": "00Baj00000BoebSEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Default_Opportunity_Pipeline",
+          "id": "00Baj00000Boed5EAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.MyOpportunities",
+          "id": "00Baj00000BoecUEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.NewLastWeek",
+          "id": "00Baj00000BoebVEAR",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.NewThisWeek",
+          "id": "00Baj00000BoebfEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Private",
+          "id": "00Baj00000BoebcEAB",
+          "success": true
+        },
+        {
+          "changed": false,
+          "componentType": "ListView",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "objects/Opportunity.object",
+          "fullName": "Opportunity.Won",
+          "id": "00Baj00000BoebmEAB",
+          "success": true
+        },
+        {
+          "changed": true,
+          "componentType": "",
+          "created": false,
+          "createdDate": "2024-07-01T14:31:34.000Z",
+          "deleted": false,
+          "fileName": "package.xml",
+          "fullName": "package.xml",
+          "success": true
+        }
+      ],
+      "runTestResult": {
+        "codeCoverage": [
+          {
+            "id": "01paj000005R3z7AAC",
+            "name": "testClass",
+            "namespace": null,
+            "numLocations": 1,
+            "numLocationsNotCovered": 0,
+            "type": "Class",
+            "dmlInfo": [],
+            "locationsNotCovered": [],
+            "methodInfo": [],
+            "soqlInfo": [],
+            "soslInfo": []
+          },
+          {
+            "id": "01qaj000000MRj7AAG",
+            "name": "AccountTrigger",
+            "namespace": null,
+            "numLocations": 1,
+            "numLocationsNotCovered": 0,
+            "type": "Trigger",
+            "dmlInfo": [],
+            "locationsNotCovered": [],
+            "methodInfo": [],
+            "soqlInfo": [],
+            "soslInfo": []
+          },
+          {
+            "id": "01paj000005OiJZAA0",
+            "name": "Test",
+            "namespace": null,
+            "numLocations": 1,
+            "numLocationsNotCovered": 0,
+            "type": "Class",
+            "dmlInfo": [],
+            "locationsNotCovered": [],
+            "methodInfo": [],
+            "soqlInfo": [],
+            "soslInfo": []
+          }
+        ],
+        "flowCoverage": [
+          {
+            "flowId": "301aj00000NGbXp",
+            "flowName": "Fluxo_Teste",
+            "flowNamespace": null,
+            "numElements": 1,
+            "numElementsNotCovered": 0,
+            "processType": "AutoLaunchedFlow",
+            "elementsNotCovered": []
+          }
+        ],
+        "numFailures": 0,
+        "numTestsRun": 1,
+        "successes": [
+          {
+            "id": "01paj000005IVyXAAW",
+            "methodName": "testTriggerOnInsert",
+            "name": "AccountTriggerTest",
+            "namespace": null,
+            "time": 251
+          }
+        ],
+        "totalTime": 271,
+        "codeCoverageWarnings": [],
+        "failures": [],
+        "flowCoverageWarnings": []
+      },
+      "componentFailures": []
+    },
+    "done": true,
+    "id": "0Afaj000005xR30CAE",
+    "ignoreWarnings": false,
+    "lastModifiedDate": "2024-07-01T14:31:35.000Z",
+    "numberComponentErrors": 0,
+    "numberComponentsDeployed": 220,
+    "numberComponentsTotal": 220,
+    "numberTestErrors": 0,
+    "numberTestsCompleted": 1,
+    "numberTestsTotal": 1,
+    "rollbackOnError": true,
+    "runTestsEnabled": true,
+    "startDate": "2024-07-01T14:31:29.000Z",
+    "status": "Succeeded",
+    "success": true,
+    "files": [
+      {
+        "fullName": "AccountTriggerTest",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\AccountTriggerTest.cls"
+      },
+      {
+        "fullName": "AccountTriggerTest",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\AccountTriggerTest.cls-meta.xml"
+      },
+      {
+        "fullName": "Test",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\Test.cls"
+      },
+      {
+        "fullName": "Test",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\Test.cls-meta.xml"
+      },
+      {
+        "fullName": "testClass",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\testClass.cls"
+      },
+      {
+        "fullName": "testClass",
+        "type": "ApexClass",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\classes\\testClass.cls-meta.xml"
+      },
+      {
+        "fullName": "AccountTrigger",
+        "type": "ApexTrigger",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\triggers\\AccountTrigger.trigger"
+      },
+      {
+        "fullName": "AccountTrigger",
+        "type": "ApexTrigger",
+        "state": "Changed",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\triggers\\AccountTrigger.trigger-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AccountSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Active__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Active__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.AnnualRevenue",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml"
+      },
+      {
+        "fullName": "Account.BillingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Campo_Teste_DEDE__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Campo_Teste_DEDE__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CleanStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Account.CustomerPriority__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\CustomerPriority__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DandbCompanyId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Description",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Account.DunsNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Fax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Industry",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Jigsaw",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsCode",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NaicsDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberOfEmployees",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml"
+      },
+      {
+        "fullName": "Account.NumberofLocations__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\NumberofLocations__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OperatingHoursId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Ownership",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ParentId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Phone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Rating",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLAExpirationDate__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\SLAExpirationDate__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLASerialNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\SLASerialNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SLA__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\SLA__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.ShippingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Sic",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml"
+      },
+      {
+        "fullName": "Account.SicDesc",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Site",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Test2__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Test2__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.TestRodrigao__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\TestRodrigao__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Test__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Test__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.TickerSymbol",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tier",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Tier.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Tradestyle",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Type",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml"
+      },
+      {
+        "fullName": "Account.UpsellOpportunity__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\UpsellOpportunity__c.field-meta.xml"
+      },
+      {
+        "fullName": "Account.Website",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml"
+      },
+      {
+        "fullName": "Account.YearStarted",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml"
+      },
+      {
+        "fullName": "Case.AccountId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\AccountId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.AssetId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\AssetId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.BusinessHoursId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\BusinessHoursId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ClosedDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ClosedDate.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Comments",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Comments.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ContactEmail",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ContactEmail.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ContactFax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ContactFax.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ContactId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ContactId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ContactMobile",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ContactMobile.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ContactPhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ContactPhone.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Description",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Case.EngineeringReqNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\EngineeringReqNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Case.EntitlementId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\EntitlementId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.IsClosedOnCreate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\IsClosedOnCreate.field-meta.xml"
+      },
+      {
+        "fullName": "Case.IsEscalated",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\IsEscalated.field-meta.xml"
+      },
+      {
+        "fullName": "Case.IsStopped",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\IsStopped.field-meta.xml"
+      },
+      {
+        "fullName": "Case.MilestoneStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\MilestoneStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Case.MilestoneStatusIcon",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\MilestoneStatusIcon.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Origin",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Origin.field-meta.xml"
+      },
+      {
+        "fullName": "Case.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ParentId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ParentId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.PotentialLiability__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\PotentialLiability__c.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Priority",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Priority.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ProductId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ProductId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Product__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Product__c.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Reason",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Reason.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SLAViolation__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SLAViolation__c.field-meta.xml"
+      },
+      {
+        "fullName": "Case.ServiceContractId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\ServiceContractId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SlaExitDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SlaExitDate.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SlaStartDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SlaStartDate.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SourceId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SourceId.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Status",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Status.field-meta.xml"
+      },
+      {
+        "fullName": "Case.StopStartDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\StopStartDate.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Subject",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Subject.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SuppliedCompany",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SuppliedCompany.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SuppliedEmail",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SuppliedEmail.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SuppliedName",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SuppliedName.field-meta.xml"
+      },
+      {
+        "fullName": "Case.SuppliedPhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\SuppliedPhone.field-meta.xml"
+      },
+      {
+        "fullName": "Case.Type",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\fields\\Type.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.AccountId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\AccountId.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.AssistantName",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\AssistantName.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.AssistantPhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\AssistantPhone.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Birthdate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Birthdate.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.CleanStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\CleanStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.ContactSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\ContactSource.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Department",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Department.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Description",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.DoNotCall",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\DoNotCall.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Email",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Email.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Fax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Fax.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.GenderIdentity",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\GenderIdentity.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.HasOptedOutOfEmail",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\HasOptedOutOfEmail.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.HasOptedOutOfFax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\HasOptedOutOfFax.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.HomePhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\HomePhone.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.IndividualId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\IndividualId.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Jigsaw",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Jigsaw.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Languages__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Languages__c.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.LastCURequestDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\LastCURequestDate.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.LastCUUpdateDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\LastCUUpdateDate.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.LeadSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\LeadSource.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Level__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Level__c.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.MailingAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\MailingAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.MobilePhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\MobilePhone.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.OtherAddress",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\OtherAddress.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.OtherPhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\OtherPhone.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Phone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Phone.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Pronouns",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Pronouns.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.ReportsToId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\ReportsToId.field-meta.xml"
+      },
+      {
+        "fullName": "Contact.Title",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\fields\\Title.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Address",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Address.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.AnnualRevenue",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\AnnualRevenue.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.CampaignId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\CampaignId.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.CleanStatus",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\CleanStatus.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Company",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Company.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.CompanyDunsNumber",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\CompanyDunsNumber.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.CurrentGenerators__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\CurrentGenerators__c.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.DandbCompanyId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\DandbCompanyId.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Description",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.DoNotCall",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\DoNotCall.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Email",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Email.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Fax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Fax.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.GenderIdentity",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\GenderIdentity.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.HasOptedOutOfEmail",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfEmail.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.HasOptedOutOfFax",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfFax.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.IndividualId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\IndividualId.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Industry",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Industry.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Jigsaw",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Jigsaw.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.LastTransferDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\LastTransferDate.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.LeadSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\LeadSource.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.MobilePhone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\MobilePhone.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.NumberOfEmployees",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\NumberOfEmployees.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.NumberofLocations__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\NumberofLocations__c.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Phone",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Phone.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Primary__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Primary__c.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.ProductInterest__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\ProductInterest__c.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Pronouns",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Pronouns.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Rating",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Rating.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.SICCode__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\SICCode__c.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Status",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Status.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Title",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Title.field-meta.xml"
+      },
+      {
+        "fullName": "Lead.Website",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\fields\\Website.field-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTest__c.Qualquercoisa__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTest__c\\fields\\Qualquercoisa__c.field-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c.CampoTeste2__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\fields\\CampoTeste2__c.field-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c.CampoTeste__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\fields\\CampoTeste__c.field-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c.teste3__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\fields\\teste3__c.field-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c.teste4__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\fields\\teste4__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.AccountId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\AccountId.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Amount",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Amount.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.CampaignId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\CampaignId.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.CloseDate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\CloseDate.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.ContractId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\ContractId.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.CurrentGenerators__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\CurrentGenerators__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.DeliveryInstallationStatus__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\DeliveryInstallationStatus__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Description",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Description.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.ExpectedRevenue",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\ExpectedRevenue.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.IqScore",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\IqScore.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.IsPrivate",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\IsPrivate.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.LeadSource",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\LeadSource.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.MainCompetitors__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\MainCompetitors__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Name",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Name.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.NextStep",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\NextStep.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.OrderNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\OrderNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.OwnerId",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\OwnerId.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Pricebook2Id",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Pricebook2Id.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Probability",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Probability.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.StageName",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\StageName.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.TotalOpportunityQuantity",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\TotalOpportunityQuantity.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.TrackingNumber__c",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\TrackingNumber__c.field-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Type",
+        "type": "CustomField",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\fields\\Type.field-meta.xml"
+      },
+      {
+        "fullName": "Account",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml"
+      },
+      {
+        "fullName": "Case",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\Case.object-meta.xml"
+      },
+      {
+        "fullName": "Contact",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\Contact.object-meta.xml"
+      },
+      {
+        "fullName": "Lead",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\Lead.object-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTest__c",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTest__c\\ObjetoTest__c.object-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\ObjetoTeste__c.object-meta.xml"
+      },
+      {
+        "fullName": "Opportunity",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\Opportunity.object-meta.xml"
+      },
+      {
+        "fullName": "Test1__c",
+        "type": "CustomObject",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Test1__c\\Test1__c.object-meta.xml"
+      },
+      {
+        "fullName": "Account.AllAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\listViews\\AllAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.MyAccounts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\listViews\\MyAccounts.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewLastWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\listViews\\NewLastWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.NewThisWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\listViews\\NewThisWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.PlatinumandGoldSLACustomers",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\listViews\\PlatinumandGoldSLACustomers.listView-meta.xml"
+      },
+      {
+        "fullName": "Case.AllClosedCases",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\listViews\\AllClosedCases.listView-meta.xml"
+      },
+      {
+        "fullName": "Case.AllOpenCases",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\listViews\\AllOpenCases.listView-meta.xml"
+      },
+      {
+        "fullName": "Case.MyCases",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\listViews\\MyCases.listView-meta.xml"
+      },
+      {
+        "fullName": "Case.MyOpenCases",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\listViews\\MyOpenCases.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.AllContacts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\AllContacts.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.BirthdaysThisMonth",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\BirthdaysThisMonth.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.BulkMessageContacts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\BulkMessageContacts.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.MyContacts",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\MyContacts.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.NewLastWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\NewLastWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Contact.NewThisWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Contact\\listViews\\NewThisWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Lead.AllOpenLeads",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\listViews\\AllOpenLeads.listView-meta.xml"
+      },
+      {
+        "fullName": "Lead.MyUnreadLeads",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\listViews\\MyUnreadLeads.listView-meta.xml"
+      },
+      {
+        "fullName": "Lead.TodaysLeads",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\listViews\\TodaysLeads.listView-meta.xml"
+      },
+      {
+        "fullName": "Lead.ViewCustom1",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\listViews\\ViewCustom1.listView-meta.xml"
+      },
+      {
+        "fullName": "Lead.ViewCustom2",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Lead\\listViews\\ViewCustom2.listView-meta.xml"
+      },
+      {
+        "fullName": "ObjetoTeste__c.All",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\ObjetoTeste__c\\listViews\\All.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.AllOpportunities",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\AllOpportunities.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.ClosingNextMonth",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\ClosingNextMonth.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.ClosingThisMonth",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\ClosingThisMonth.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Default_Opportunity_Pipeline",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\Default_Opportunity_Pipeline.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.MyOpportunities",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\MyOpportunities.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.NewLastWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\NewLastWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.NewThisWeek",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\NewThisWeek.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Private",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\Private.listView-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.Won",
+        "type": "ListView",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\listViews\\Won.listView-meta.xml"
+      },
+      {
+        "fullName": "Account.Billing",
+        "type": "WebLink",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Account\\webLinks\\Billing.webLink-meta.xml"
+      },
+      {
+        "fullName": "Case.UpsellCrosssellOpportunity",
+        "type": "WebLink",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Case\\webLinks\\UpsellCrosssellOpportunity.webLink-meta.xml"
+      },
+      {
+        "fullName": "Opportunity.DeliveryStatus",
+        "type": "WebLink",
+        "state": "Unchanged",
+        "filePath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\Codigos\\test-ci-cd\\force-app\\main\\default\\objects\\Opportunity\\webLinks\\DeliveryStatus.webLink-meta.xml"
+      }
+    ]
+  },
+  "warnings": []
+}
