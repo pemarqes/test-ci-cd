@@ -17,8 +17,8 @@ private class AccountTriggerTest {
       WHERE Id = :acc.Id
     ];
 
-    new testClass();
-    new Test();
+    // new testClass();
+    // new Test();
 
     // Verificando se a trigger atualizou corretamente os campos esperados
     // System.assertEquals('Test Account', insertedAccount.Name);
